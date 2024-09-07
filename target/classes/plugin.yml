@@ -1,0 +1,11 @@
+name: CMDCooldown
+version: '1.0-SNAPSHOT'
+main: net.legendahlupa.com.cmdcooldown.CMDCooldown
+api-version: '1.21'
+description: "Plugin for cooldown commands"
+author: LegendaHluPa
+commands:
+  CommandCooldown:
+    aliases:
+      - cmdc
+      - cc

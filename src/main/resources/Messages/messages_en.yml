@@ -1,0 +1,12 @@
+#%command% and similar placeholders work only in the lines where they are originally intended
+Only-For-Players: "This command is only for players"
+No-Permission: "&4You do not have enough permissions"
+CooldownExpired: "&6Your cooldown for the command %command% has ended"
+CooldownActive: "&6The command %command% is currently on cooldown"
+NotNumber: "&4Please use numbers only"
+EnterNumber: "&6Enter a number: "
+#Description of the command item in the /cc menu
+Cooldown-Item-in-Menu-lore:
+  - "&8Time: &a%cooldown_time%"
+  - "&8Left-click to &eChange time"
+  - "&8Right-click to &cDelete"

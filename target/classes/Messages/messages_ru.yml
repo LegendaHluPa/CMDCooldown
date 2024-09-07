@@ -1,0 +1,16 @@
+#%command% and similar placeholders work only in the lines where they are originally intended
+
+Only-For-Players: "Данная команда только для игроков"
+No-Permission: "&4Недостаточно прав"
+CooldownExpired: "&6Ваша перезарядка на команду %command% окончена"
+CooldownActive: "&6На данный момент команда %command% находится на перезарядке"
+NotNumber: "&4Используйте только числа"
+EnterNumber: "&6Введите число: "
+#Описание предмета команды в меню /cc
+Cooldown-Item-in-Menu-lore:
+  - "&8Время: &a%cooldown_time%"
+  - "&8Левая кнопка мыши что бы &eИзменить время"
+  - "&8Правая кнопка мыши что бы &cУдалить"
+
+
+
