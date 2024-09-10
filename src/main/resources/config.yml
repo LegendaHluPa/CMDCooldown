@@ -1,0 +1,39 @@
+#Message translation
+message_language: en
+
+database:
+  type: sqlite
+  mysql:
+    host: host
+    port: port
+    name: name
+    user: admin
+    password: "pass"
+    params:
+      - 'autoReconnect=true'
+      - 'useSSL=DISABLED'
+  postgresql:
+    host: localhost
+    port: port
+    name: name
+    user: admin
+    password: pass
+    params:
+      - 'autoReconnect=true'
+      - 'useSSL=DISABLED'
+  sqlite:
+    file: database.db
+
+#Notify the player if he is online when the cooldown expires
+NotifyExpired: true
+#Interval of cache autoloading to the database (seconds)
+AutoLoad: 30
+#All cooldowns
+Cooldowns:
+  #Command
+  tp:
+    #Time in seconds
+    time: 10
+    #Which commands will have the same cooldown
+    aliases:
+      - teleport

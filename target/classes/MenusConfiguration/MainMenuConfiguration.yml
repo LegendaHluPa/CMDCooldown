@@ -1,0 +1,11 @@
+MainMenuBorder:
+  Material: GRAY_STAINED_GLASS_PANE
+  DisplayName: " "
+NextItem:
+  Material: PAPER
+  DisplayName: "&6Next"
+PrevItem:
+  Material: PAPER
+  DisplayName: "&6Prev"
+CooldownItem:
+  Material: YELLOW_WOOL
